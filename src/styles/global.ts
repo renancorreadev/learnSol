@@ -10,8 +10,9 @@ export const GlobalStyle = createGlobalStyle`
 
     --color-green-light: #1DDED8;
 
-    --color-dark-medium: #313640;
+    --color-dark-medium: #363640;
     --color-dark: #2A2E37;
+    --dark: black;
 
     --text-title: #FFFFFF;
 }
@@ -37,8 +38,9 @@ html{
 }
 
 body{
-    background: var(--color-dark-medium);
+    background: var(--dark);
     -webkit-font-smoothing: antialiased;
+    
 }
 
 button {
