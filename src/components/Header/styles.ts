@@ -1,7 +1,6 @@
 import styled from 'styled-components'
-import { Container } from 'react-bootstrap'
 
-export const MainContainer = styled(Container)`
+export const MainContainer = styled.div`
   height: 5rem;
   border-bottom: 1px solid var(--color-green-primary);
   background-color: var(--color-green-primary);
