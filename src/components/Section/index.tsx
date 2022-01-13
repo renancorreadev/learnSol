@@ -14,6 +14,7 @@ interface SectionProps {
   capitulo: number
   code: string
 }
+
 export function Section({ title, capitulo, description, code }: SectionProps) {
   return (
     <MainContainer>

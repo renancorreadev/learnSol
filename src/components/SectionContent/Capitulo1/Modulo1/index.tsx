@@ -11,7 +11,7 @@ export function Modulo1() {
       <Row>
         <Col md={12}>
           <Section
-            title="Começando com solidity 'Hello World'"
+            title="Começando com solidity: 'Hello World'"
             capitulo={1}
             description="
               Esse é o famoso Hello World do Solidity, 

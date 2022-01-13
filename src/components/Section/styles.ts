@@ -19,15 +19,14 @@ export const MainContainer = styled(Container)`
 export const Capitulo = styled.h5`
   font-family: roboto, sans-serif;
   color: var(--text-title);
-  font-size: 1.5rem;
+  font-size: 0.8rem;
 `
 export const Title = styled.h2`
   font-family: roboto, sans-serif;
-  color: var(--text-title);
+  color: var(--color-green-light);
   font-size: 2.5rem;
 `
-
-export const Description = styled.h1`
+export const Description = styled.p`
   font-family: roboto, sans-serif;
   color: var(--text-title);
   font-size: 1rem;

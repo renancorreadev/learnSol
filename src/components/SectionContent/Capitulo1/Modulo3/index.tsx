@@ -11,7 +11,7 @@ export function Modulo3() {
       <Row>
         <Col md={12}>
           <Section
-            title="Variaveis de Estado"
+            title="Variáveis de Estado"
             capitulo={1}
             description="
              As variáveis ​​de estado são armazenadas no blockchain. 

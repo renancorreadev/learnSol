@@ -1,5 +1,5 @@
 import React from 'react'
-import { MainTitle } from './styles'
+import { MainTitle, Box } from './styles'
 
 interface TitleProps {
   title: string
@@ -7,5 +7,9 @@ interface TitleProps {
 
 export function Title({ title }: TitleProps) {
   //disable eslint for this line
-  return <MainTitle>{title}</MainTitle>
+  return (
+    <Box>
+      <MainTitle>{title}</MainTitle>
+    </Box>
+  )
 }
