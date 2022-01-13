@@ -1,30 +1,17 @@
 import React from 'react'
-
 import { MainContainer } from './styles'
-import { CodeBlock } from '../CodeBlock'
+import { Title } from '../Title'
 
-import { Container, Row, Col } from 'react-bootstrap'
-
-const code = `const App = props => {
-  return (
-    <div>
-      <h1> React App </h1>
-      <div>Awesome code</div>
-    </div>
-  );
-};
-`
+//Contents
+import { Modulo1 } from '../SectionContent/Capitulo1/Modulo1'
+import { Modulo2 } from '../SectionContent/Capitulo1/Modulo2'
 
 export function Home() {
   return (
     <MainContainer>
-      <Container>
-        <Row>
-          <Col md={6} style={{ marginTop: '20px' }}>
-            <CodeBlock code={code} language="javascript" />
-          </Col>
-        </Row>
-      </Container>
+      <Title title="Capitulo 1: Introdução ao Solidity" />
+      <Modulo1 />
+      <Modulo2 />
     </MainContainer>
   )
 }

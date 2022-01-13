@@ -38,7 +38,7 @@ html{
 }
 
 body{
-    background: var(--color-white);
+    background: var(--dark);
     -webkit-font-smoothing: antialiased;
     
 }
