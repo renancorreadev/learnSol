@@ -1,17 +1,31 @@
 import React from 'react'
 
-import { Box, MainUl, MainLi, Link } from './styles'
+import { Box, MainUl, Link, Toggle } from './styles'
+import { Dropdown } from 'react-bootstrap'
 
 export function MenuContent() {
   return (
     <Box>
       <MainUl>
-        <MainLi>
-          <Link href="/Modulo1">Modulo 1 | Introdução</Link>
-        </MainLi>
-        <MainLi>
-          <Link href="/Modulo2'">Modulo 2 | Metodos e Funções</Link>
-        </MainLi>
+        <Dropdown>
+          <Toggle
+            id="dropdown-button-dark-example2"
+            variant="secondary"
+            menuVariant="dark"
+          >
+            Modulo 1 | Introdução
+          </Toggle>
+
+          <Dropdown.Menu>
+            <Link href="/helloworld">01 - HelloWorld</Link>
+            <Link href="/variaveis">02 - Váriaveis</Link>
+            <Link href="/variaveis_estado">03 - Variáveis de Estado</Link>
+            <Link href="/variaveis_locais">04 - Variáveis Locais</Link>
+            <Link href="/variaveis_globais">05 - Variáveis Globais</Link>
+            <Link href="/pure_view">06 - Funções View e Pure</Link>
+            <Link href="/contador">07 - Contador</Link>
+          </Dropdown.Menu>
+        </Dropdown>
       </MainUl>
     </Box>
   )

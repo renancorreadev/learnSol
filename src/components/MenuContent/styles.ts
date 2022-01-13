@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import { Container } from 'react-bootstrap'
+import { Container, Dropdown } from 'react-bootstrap'
 
 export const Box = styled(Container)`
   display: flex;
@@ -10,9 +10,26 @@ export const Box = styled(Container)`
   margin-top: 0rem;
   width: 80%;
 
-  background-color: var(--color-dark-medium);
-  border-radius: 0.5rem;
+  background-color: var(--color-white);
+  /* top-left | top-right | bottom-right | bottom-left */
+  border-radius: 0rem 0 10rem 10rem;
+
   padding: 5px;
+`
+
+export const Toggle = styled(Dropdown.Toggle)`
+  font-size: 1rem;
+  background: var(--dark);
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  color: var(--color-white);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--color-green-dark);
+    font-weight: bold;
+  }
 `
 export const MainUl = styled.ul`
   font-size: 0.5em;
@@ -29,24 +46,10 @@ export const MainUl = styled.ul`
   margin-bottom: 0.5rem;
 `
 
-export const MainLi = styled.li`
-  font-size: 1.3rem;
-  text-decoration: none;
-  margin-left: 2rem;
-  list-style-type: none;
-`
-
-export const Link = styled.a`
-  font-size: 1rem;
+export const Link = styled(Dropdown.Item)`
+  font-size: 0.7rem;
   background: var(--color-white);
-  width: 100%;
-  padding: 0.5rem;
-  border-radius: 0.5rem;
+
   color: var(--color-dark);
   text-decoration: none;
-
-  &:hover {
-    color: var(--color-green-dark);
-    font-weight: bold;
-  }
 `

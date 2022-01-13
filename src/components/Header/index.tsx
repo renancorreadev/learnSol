@@ -7,7 +7,10 @@ export function Header() {
   return (
     <MainContainer>
       <Content>
-        <Logo src={ImgLogo} alt="" />
+        <a href="/">
+          <Logo src={ImgLogo} alt="" />
+        </a>
+
         <Nav>
           <NavLink className="active"> Home </NavLink>
           <NavLink> Sobre Solidity </NavLink>
