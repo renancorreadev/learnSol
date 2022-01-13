@@ -4,12 +4,14 @@ import { BrowserRouter, BrowserRouter as Router } from 'react-router-dom'
 import { Routes } from './routes'
 
 import { Header } from './components/Header'
+import { MenuContent } from './components/MenuContent'
 
 function App() {
   return (
     <div className="App">
       <GlobalStyle />
       <Header />
+      <MenuContent />
       <BrowserRouter>
         <Router>
           <Routes />
