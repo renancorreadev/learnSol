@@ -1,10 +1,10 @@
 import React from 'react'
 import { MainContainer } from './styles'
-import { Title } from '../Title'
+import { Title } from '../../components/Title'
 
 //Contents
-import { Modulo1 } from '../SectionContent/Capitulo1/Modulo1'
-import { Modulo2 } from '../SectionContent/Capitulo1/Modulo2'
+import { Modulo1 } from '../../components/SectionContent/Capitulo1/Modulo1'
+import { Modulo2 } from '../../components/SectionContent/Capitulo1/Modulo2'
 
 export function Home() {
   return (

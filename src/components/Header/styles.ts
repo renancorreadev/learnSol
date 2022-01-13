@@ -1,14 +1,14 @@
 import styled from 'styled-components'
 
 export const MainContainer = styled.div`
-  height: 5rem;
+  height: 8rem;
   border-bottom: 1px solid var(--color-green-primary);
   background-color: var(--color-green-primary);
 `
 
 export const Content = styled.div`
   max-width: 1120px;
-  height: 5rem;
+  height: 8rem;
   margin: 0 auto;
   padding: 0 2rem;
 
@@ -18,7 +18,7 @@ export const Content = styled.div`
 `
 
 export const Logo = styled.img`
-  height: 5rem;
+  height: 8rem;
   width: auto;
 `
 
@@ -32,6 +32,7 @@ export const Nav = styled.nav.attrs((props) => ({
     font-family: Roboto, sans-serif;
     font-size: 1.2rem;
     font-weight: bold;
+    text-decoration: none;
 
     display: inline-block;
     position: relative;

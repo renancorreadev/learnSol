@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import { Section } from '../../../Section'
 
 //Texto codes
-import { md01_02 } from '../../../../Contents/mod02'
+import { md01_02 } from '../../../../@types/mod02'
 
 export function Modulo2() {
   return (
